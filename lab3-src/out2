@@ -1,0 +1,26 @@
+total 364
+drwxr-s--- 4 pshoroff pshoroff  4096 Feb 28 19:33 .
+drwxr-s--- 7 pshoroff pshoroff  4096 Feb 21 14:59 ..
+drwxr-s--- 7 pshoroff pshoroff  4096 Feb 28 19:32 .git
+-rw-r----- 1 pshoroff pshoroff  3294 Feb 28 19:32 .local.git.out
+-rwxr-x--- 1 pshoroff pshoroff   798 Feb 21 14:59 Makefile
+-rwxr-x--- 1 pshoroff pshoroff 20816 Feb 21 15:00 cat_grep
+-rwxr-x--- 1 pshoroff pshoroff  2927 Feb 21 14:59 cat_grep.cc
+-rwxr-x--- 1 pshoroff pshoroff  4718 Feb 28 19:31 command.cc
+-rwxr-x--- 1 pshoroff pshoroff   722 Feb 28 19:21 command.h
+-rw-r----- 1 pshoroff pshoroff 26616 Feb 28 19:31 command.o
+-rwxr-x--- 1 pshoroff pshoroff 12480 Feb 21 15:00 ctrl-c
+-rwxr-x--- 1 pshoroff pshoroff   642 Feb 21 14:59 ctrl-c.cc
+-rw-r----- 1 pshoroff pshoroff 45136 Feb 22 15:02 lex.yy.c
+-rw-r----- 1 pshoroff pshoroff 43480 Feb 22 15:02 lex.yy.o
+-rw-r----- 1 pshoroff pshoroff   179 Feb 28 19:19 ls
+-r--r----- 1 pshoroff pshoroff     0 Feb 28 19:33 out
+-rwxr-x--- 1 pshoroff pshoroff 15736 Feb 21 15:00 regular
+-rwxr-x--- 1 pshoroff pshoroff  1747 Feb 21 14:59 regular.cc
+-rwxr-x--- 1 pshoroff pshoroff 56856 Feb 28 19:31 shell
+-rwxr-x--- 1 pshoroff pshoroff   651 Feb 22 14:58 shell.l
+-rwxr-x--- 1 pshoroff pshoroff  2353 Feb 22 15:38 shell.y
+drwxr-s--- 3 pshoroff pshoroff  4096 Feb 28 16:50 test-shell
+-rw-r----- 1 pshoroff pshoroff 47928 Feb 22 15:38 y.tab.c
+-rw-r----- 1 pshoroff pshoroff  2551 Feb 22 15:38 y.tab.h
+-rw-r----- 1 pshoroff pshoroff 18616 Feb 22 15:38 y.tab.o

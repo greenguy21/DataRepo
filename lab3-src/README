@@ -1,0 +1,6 @@
+features specified in the handout that work:
+	simple commands, file redirection, pipes, ctrl-c, exit, zombie elimination, builtins, almost all of wildcarding, quotes, and variable expansion.
+Features specified in the handout that do not work:
+	escape characters, tilde expansion, edit mode, history, and subshells.
+Extra features implemented
+	None
