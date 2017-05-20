@@ -1,0 +1,241 @@
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+
+nothing added to commit but untracked files present
+[master 6115c95] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	MyMalloc.o
+	MyMalloc.so
+	test0
+	test1
+	test1-1
+	test1-2
+	test1-3
+	test1-4
+	test2
+	test3
+	test4
+	test5
+	test6
+	test7
+
+nothing added to commit but untracked files present
+[master 434fba7] Commit
+ 1 file changed, 11 deletions(-)
+ delete mode 100644 total.txt
+[master 1c50cc0] Commit
+ 2 files changed, 16 insertions(+), 9 deletions(-)
+ create mode 100644 total.txt
+[master 6d5bd6c] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 8259c2c] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master d1cf2c3] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 4226342] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master 2a9a153] Commit
+ 2 files changed, 4 insertions(+)
+ create mode 100644 total.txt
+[master dbf9bf3] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master e04d340] Commit
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 total.txt
+[master e5391df] Commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 total.txt
+[master 7bb94c0] Commit
+ 1 file changed, 11 deletions(-)
+ delete mode 100644 total.txt
+[master 1edfae9] Commit
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master dd380db] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	total.out
+
+nothing added to commit but untracked files present
+[master 75898b2] Commit
+ 1 file changed, 11 deletions(-)
+ delete mode 100644 total.txt
+[master afc2900] Commit
+ 2 files changed, 13 insertions(+)
+ create mode 100644 total.txt
+[master 63867db] Commit
+ 1 file changed, 11 deletions(-)
+ delete mode 100644 total.txt
+[master c5dc2bc] Commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+[master 73b8a6a] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+[master 8dd7c5c] Commit
+ 2 files changed, 23 insertions(+), 9 deletions(-)
+ create mode 100644 total.txt
+[master ffc23c7] Commit
+ 1 file changed, 8 deletions(-)
+ delete mode 100644 total.txt
+[master 5ae7c79] Commit
+ 2 files changed, 31 insertions(+), 13 deletions(-)
+ create mode 100644 total.txt
+[master b543740] Commit
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+[master 1b63316] Commit
+ 1 file changed, 4 deletions(-)
+ delete mode 100644 total.txt
+[master 6f70545] Commit
+ 2 files changed, 11 insertions(+), 3 deletions(-)
+ create mode 100644 total.txt
+[master 2f01e91] Commit
+ 1 file changed, 8 deletions(-)
+ delete mode 100644 total.txt
+[master 5999723] Commit
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master bffff6e] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master 2ff1515] Commit
+ 2 files changed, 14 insertions(+), 4 deletions(-)
+ create mode 100644 total.txt
+[master c3c0f05] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master cfa0d6b] Commit
+ 2 files changed, 88 insertions(+), 77 deletions(-)
+ create mode 100644 total.txt
+[master b4d1b39] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master 2d747e6] Commit
+ 1 file changed, 10 insertions(+)
+ create mode 100644 total.txt
+[master ec8d354] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master 3930000] Commit
+ 2 files changed, 35 insertions(+), 36 deletions(-)
+ create mode 100644 total.txt
+[master 5a67a79] Commit
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master e196ced] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master 5303e38] Commit
+ 2 files changed, 11 insertions(+)
+ create mode 100644 total.txt
+[master fd0cd6e] Commit
+ 1 file changed, 36 deletions(-)
+[master aa5d470] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 733f60d] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master 17f469d] Commit
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master dffd2e9] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master 8349eb2] Commit
+ 2 files changed, 14 insertions(+), 2 deletions(-)
+ create mode 100644 total.txt
+[master 4a16f36] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master be06ee0] Commit
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master 436467c] Commit
+ 1 file changed, 11 deletions(-)
+ delete mode 100644 total.txt
+[master d5fd919] Commit
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master c6de6ee] Commit
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 total.txt
+[master ab42782] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 2affc1f] Commit
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master b22bbc3] Commit
+ 1 file changed, 11 deletions(-)
+ delete mode 100644 total.txt
