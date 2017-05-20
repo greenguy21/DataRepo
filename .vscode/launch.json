@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/lab1-src/test2",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "/Users/Pranay/DataRepo",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb"
+        }
+    ]
+}

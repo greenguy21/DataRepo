@@ -1,7 +1,7 @@
 
 CC = gcc -g
 
-all: git-commit MyMalloc.so test0 test1 test1-1 test1-2 test1-3 test1-4 test1 test2 test3 test4 test5 test6 test7
+all: MyMalloc.so test0 test1 test1-1 test1-2 test1-3 test1-4 test1 test2 test3 test4 test5 test6 test7
 
 MyMalloc.so: MyMalloc.c
 	$(CC) -fPIC -c -g MyMalloc.c

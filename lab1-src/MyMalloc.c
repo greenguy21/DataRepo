@@ -97,7 +97,7 @@ void initialize()
  */
 void * allocateObject(size_t size)
 {
-    // Make sure that allocator is initialized
+	// Make sure that allocator is initialized
     if (!_initialized)
         initialize();
     
@@ -221,6 +221,7 @@ void freeObject(void *ptr)
 		currentBlockHead->_listNext->_listPrev = currentBlockHead;
 		_freeList->_listNext = currentBlockHead;
 	}
+	pthread_mutex_unlock(&mutex);
 	return;
 }
 
