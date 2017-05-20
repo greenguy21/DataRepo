@@ -17,11 +17,12 @@
 #include <unistd.h>
 #include <sys/mman.h>
 #include <pthread.h>
+#include <assert.h> //TODO: check this library
 #include "MyMalloc.h"
 
 static pthread_mutex_t mutex;
 
-const int arenaSize = 2097152;
+const int arenaSize = 0x200000;
 
 void increaseMallocCalls()  { _mallocCalls++; }
 
@@ -67,7 +68,7 @@ void initialize()
     fencePostFoot->_objectSize = 0;
 
     // Set up the sentinel as the start of the freeList
-    _freeList = &_freeListSentinel;
+    _freeList = &_freeListSentinel; //TODO: initialize freelistsentinel?
 
     // Initialize the list to point to the _mem
     temp = (char *)_mem + sizeof(ObjectHeader);
@@ -90,7 +91,7 @@ void initialize()
  * TODO: In allocateObject you will handle retrieving new memory for the malloc
  * request. The current implementation simply pulls from the OS for every
  * request.
- *
+ * pthread_mutex_lock(&mutex) is called before this function, be sure to release it before return
  * @param: amount of memory requested
  * @return: pointer to start of useable memory
  */
@@ -119,8 +120,11 @@ void * allocateObject(size_t size)
 	    //check if end
 	    if (found == 1){
 		    //Check if splitting possible
+		    assert(temp!= NULL);
+		    assert(temp->_objectSize >= roundedSize);
 		    ObjectHeader * newBlock;
-		    if (temp->_objectSize >= (roundedSize + 8 + sizeof(ObjectHeader))){
+		    if (temp->_objectSize >= (roundedSize + 8 + sizeof(ObjectHeader))){ //TODO: Change 8 to const MINBS
+			    //Splitting
 			    char * _allocBlockMem = (char*) temp + (temp->_objectSize - roundedSize); 
 			    newBlock = (ObjectHeader*) _allocBlockMem;
 			    newBlock->_objectSize = roundedSize;
@@ -132,6 +136,7 @@ void * allocateObject(size_t size)
 			    pthread_mutex_unlock(&mutex);
 			    return (void *)((char *)newBlock + sizeof(ObjectHeader));
 		    } else {
+		    	//no block split
 			    temp->_listPrev->_listNext = temp->_listNext;
 			    temp->_listNext->_listPrev = temp->_listPrev;
 			    temp->_allocated = 1; 
