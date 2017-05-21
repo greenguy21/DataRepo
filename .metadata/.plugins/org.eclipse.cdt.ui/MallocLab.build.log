@@ -1,0 +1,6 @@
+13:57:42 **** Incremental Build of configuration Debug for project MallocLab ****
+make all 
+make: Nothing to be done for `all'.
+
+13:57:42 Build Finished (took 76ms)
+
