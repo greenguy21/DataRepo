@@ -1,0 +1,46 @@
+!SESSION 2017-05-20 13:39:54.586 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/Pranay/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/Pranay/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-20 13:40:13.953
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-20 13:46:18.609
+!MESSAGE Indexed 'Lab1Malloc' (0 sources, 0 headers) in 0.005 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 4 77 2017-05-20 13:47:10.802
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2017-05-20 13:47:10.802
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2017-05-20 13:47:10.802
+!MESSAGE /Users/Pranay/Documents/DataRepo/lab1-src overlaps the location of another project: 'lab1-src'
+
+!ENTRY org.eclipse.core.resources 4 77 2017-05-20 13:48:52.967
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2017-05-20 13:48:52.967
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2017-05-20 13:48:52.967
+!MESSAGE /Users/Pranay/Documents/DataRepo/lab1-src overlaps the location of another project: 'lab1-src'
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-20 13:53:39.225
+!MESSAGE Indexed 'HelloWorld' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-20 13:55:58.381
+!MESSAGE Indexed 'MallocLab' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-05-20 13:57:42.603
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-05-20 13:57:42.604
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 77 2017-05-20 14:00:33.864
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2017-05-20 14:00:33.864
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2017-05-20 14:00:33.864
+!MESSAGE /Users/Pranay/Documents/DataRepo/lab1-src overlaps the location of another project: 'lab1-src'

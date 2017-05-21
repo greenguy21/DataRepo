@@ -1,0 +1,153 @@
+13:51:05 **** Build of configuration Debug for project Lab1Malloc ****
+make all 
+Building file: ../MyMalloc.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MyMalloc.d" -MT"MyMalloc.o" -o "MyMalloc.o" "../MyMalloc.c"
+../MyMalloc.c:143:59: warning: variable 'newBlock' is uninitialized when used here [-Wuninitialized]
+                            ObjectHeader * leftBlock = (ObjectHeader*) ((char*)newBlock + newBlock->_objectSize);
+                                                                               ^~~~~~~~
+../MyMalloc.c:125:30: note: initialize the variable 'newBlock' to silence this warning
+                    ObjectHeader * newBlock;
+                                           ^
+                                            = NULL
+../MyMalloc.c:275:15: warning: 'sbrk' is deprecated [-Wdeprecated-declarations]
+        void *_mem = sbrk(size);
+                     ^
+/usr/include/unistd.h:587:7: note: 'sbrk' has been explicitly marked deprecated here
+void    *sbrk(int);
+         ^
+2 warnings generated.
+Finished building: ../MyMalloc.c
+ 
+Building file: ../test0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test0.d" -MT"test0.o" -o "test0.o" "../test0.c"
+../test0.c:16:7: warning: unused variable 'k' [-Wunused-variable]
+  int k = i + j;
+      ^
+1 warning generated.
+Finished building: ../test0.c
+ 
+Building file: ../test1-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test1-1.d" -MT"test1-1.o" -o "test1-1.o" "../test1-1.c"
+Finished building: ../test1-1.c
+ 
+Building file: ../test1-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test1-2.d" -MT"test1-2.o" -o "test1-2.o" "../test1-2.c"
+Finished building: ../test1-2.c
+ 
+Building file: ../test1-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test1-3.d" -MT"test1-3.o" -o "test1-3.o" "../test1-3.c"
+Finished building: ../test1-3.c
+ 
+Building file: ../test1-4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test1-4.d" -MT"test1-4.o" -o "test1-4.o" "../test1-4.c"
+Finished building: ../test1-4.c
+ 
+Building file: ../test1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test1.d" -MT"test1.o" -o "test1.o" "../test1.c"
+Finished building: ../test1.c
+ 
+Building file: ../test2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test2.d" -MT"test2.o" -o "test2.o" "../test2.c"
+../test2.c:19:10: warning: unused variable 'p2' [-Wunused-variable]
+  char * p2 = (char *) malloc(64);
+         ^
+../test2.c:20:10: warning: unused variable 'p3' [-Wunused-variable]
+  char * p3 = (char *) malloc(8);
+         ^
+2 warnings generated.
+Finished building: ../test2.c
+ 
+Building file: ../test3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test3.d" -MT"test3.o" -o "test3.o" "../test3.c"
+Finished building: ../test3.c
+ 
+Building file: ../test4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test4.d" -MT"test4.o" -o "test4.o" "../test4.c"
+Finished building: ../test4.c
+ 
+Building file: ../test5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test5.d" -MT"test5.o" -o "test5.o" "../test5.c"
+Finished building: ../test5.c
+ 
+Building file: ../test6.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test6.d" -MT"test6.o" -o "test6.o" "../test6.c"
+../test6.c:10:11: warning: unused variable 'j' [-Wunused-variable]
+    int i,j;
+          ^
+../test6.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../test6.c:20:5: warning: ignoring return value of function declared with 'warn_unused_result' attribute [-Wunused-result]
+    malloc(20);
+    ^~~~~~ ~~
+3 warnings generated.
+Finished building: ../test6.c
+ 
+Building file: ../test7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test7.d" -MT"test7.o" -o "test7.o" "../test7.c"
+Finished building: ../test7.c
+ 
+Building target: Lab1Malloc
+Invoking: MacOS X C Linker
+gcc  -o "Lab1Malloc"  ./MyMalloc.o ./test0.o ./test1-1.o ./test1-2.o ./test1-3.o ./test1-4.o ./test1.o ./test2.o ./test3.o ./test4.o ./test5.o ./test6.o ./test7.o   
+duplicate symbol _main in:
+    ./test0.o
+    ./test1-1.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test1-2.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test1-3.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test1-4.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test1.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test2.o
+duplicate symbol _allocations in:
+    ./test2.o
+    ./test3.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test3.o
+duplicate symbol _allocations in:
+    ./test2.o
+    ./test4.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test4.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test5.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test6.o
+duplicate symbol _allocations in:
+    ./test2.o
+    ./test7.o
+duplicate symbol _main in:
+    ./test0.o
+    ./test7.o
+ld: 14 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab1Malloc] Error 1
+
+13:51:07 Build Finished (took 1s.425ms)
+

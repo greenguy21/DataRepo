@@ -1,0 +1,38 @@
+13:56:45 **** Build of configuration Debug for project MallocLab ****
+make all 
+Building file: ../src/MyMalloc.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyMalloc.d" -MT"src/MyMalloc.o" -o "src/MyMalloc.o" "../src/MyMalloc.c"
+../src/MyMalloc.c:143:59: warning: variable 'newBlock' is uninitialized when used here [-Wuninitialized]
+                            ObjectHeader * leftBlock = (ObjectHeader*) ((char*)newBlock + newBlock->_objectSize);
+                                                                               ^~~~~~~~
+../src/MyMalloc.c:125:30: note: initialize the variable 'newBlock' to silence this warning
+                    ObjectHeader * newBlock;
+                                           ^
+                                            = NULL
+../src/MyMalloc.c:275:15: warning: 'sbrk' is deprecated [-Wdeprecated-declarations]
+        void *_mem = sbrk(size);
+                     ^
+/usr/include/unistd.h:587:7: note: 'sbrk' has been explicitly marked deprecated here
+void    *sbrk(int);
+         ^
+2 warnings generated.
+Finished building: ../src/MyMalloc.c
+ 
+Building file: ../src/test0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test0.d" -MT"src/test0.o" -o "src/test0.o" "../src/test0.c"
+../src/test0.c:16:7: warning: unused variable 'k' [-Wunused-variable]
+  int k = i + j;
+      ^
+1 warning generated.
+Finished building: ../src/test0.c
+ 
+Building target: MallocLab
+Invoking: MacOS X C Linker
+gcc  -o "MallocLab"  ./src/MyMalloc.o ./src/test0.o   
+Finished building target: MallocLab
+ 
+13:57:42 **** Incremental Build of configuration Debug for project MallocLab ****
+make all 
+make: Nothing to be done for `all'.
