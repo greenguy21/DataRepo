@@ -5,7 +5,7 @@
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/lab1-src/test2",
+            "program": "${workspaceRoot}/LearningStack/test0",
             "args": [],
             "stopAtEntry": false,
             "cwd": "/Users/Pranay/DataRepo",
